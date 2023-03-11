@@ -1,5 +1,5 @@
 {
-  "name": "docker-compose-next",
+  "name": "docker-compose-next-mongodb",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "mongodb": "^5.1.0",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
